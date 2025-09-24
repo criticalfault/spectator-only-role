@@ -20,7 +20,7 @@
   ],
   "packs": [],
   "socket": false,
-  "url": "https://example.com",
+  "url": "https://github.com/criticalfault/spectator-only-role",
   "manifest": "https://raw.githubusercontent.com/criticalfault/spectator-only-role/refs/heads/main/module.json",
   "download": "https://github.com/criticalfault/spectator-only-role/archive/refs/heads/main.zip",
   "license": "MIT"
