@@ -1,0 +1,23 @@
+<form class="flexcol" autocomplete="off">
+  <div class="form-group">
+    <p>Select users to run in <b>Spectator Mode</b>. They can see the board and use chat only.</p>
+  </div>
+
+  <div class="form-group">
+    <label>Users</label>
+    <div class="form-fields">
+      <div class="svtt-user-list">
+        {{#each users as |u|}}
+          <label class="checkbox">
+            <input type="checkbox" name="user.{{u.id}}" {{#if u.checked}}checked{{/if}}/>
+            <span>{{u.name}}</span>
+          </label><br/>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  <footer class="sheet-footer flexrow">
+    <button type="submit" class="flex1"><i class="fas fa-save"></i> Save</button>
+  </footer>
+</form>

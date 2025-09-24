@@ -1,0 +1,19 @@
+/* Core hide rules when spectator */
+html.svtt-spectator #controls,
+html.svtt-spectator #hotbar {
+  display: none !important;
+}
+
+/* Optional: hide extra chrome */
+html.svtt-spectator #navigation { display: none !important; } /* scene nav */
+html.svtt-spectator #players { display: none !important; }    /* player list */
+html.svtt-spectator #pause { display: none !important; }       /* pause overlay button */
+html.svtt-spectator #token-hud { display: none !important; }   /* token HUD */
+html.svtt-spectator .control-tools { display: none !important; }
+html.svtt-spectator #ui-left  { display: none !important; }
+
+
+/* Hide non-chat tabs & their content (we also toggle classes in JS) */
+html.svtt-spectator #sidebar .tabs .item.svtt-hidden { display: none !important; }
+html.svtt-spectator #sidebar .tab.svtt-hidden { display: none !important; }
+

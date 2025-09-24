@@ -1,0 +1,27 @@
+{
+  "id": "spectator-mode",
+  "title": "Spectator Mode",
+  "description": "Mark specific users as spectators: view board + chat only. Hides tools and disables hotkeys.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "You"
+    }
+  ],
+  "esmodules": [
+    "scripts/spectator.js"
+  ],
+  "styles": [
+    "styles/spectator.css"
+  ],
+  "packs": [],
+  "socket": false,
+  "url": "https://example.com",
+  "manifest": "https://example.com/module.json",
+  "download": "https://example.com/module.zip",
+  "license": "MIT"
+}
